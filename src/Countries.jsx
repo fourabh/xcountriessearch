@@ -19,7 +19,7 @@ const CountryCard = ({ flag, name }) => {
       }}
     >
       <img src={flag} alt={name} height="100px" width="100px" />
-      <h3>{name}</h3>
+      <h2>{name}</h2>
     </div>
   );
 };
